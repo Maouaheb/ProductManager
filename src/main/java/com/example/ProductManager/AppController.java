@@ -19,7 +19,7 @@ public class AppController {
     public String viewHomePage(Model model){
         List<Product> listeProduct=service.listAll();
         model.addAttribute("listeProducts",listeProduct);
-        return "index";
+        return "indexx";
     }
     @RequestMapping("/new")
     public String createProduct(Model model){
